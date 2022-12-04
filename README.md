@@ -1,2 +1,0 @@
-# tij
-Thinking in Java

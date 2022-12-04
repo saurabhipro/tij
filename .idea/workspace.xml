@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c7ebd1-ce67-4c8d-9e6f-7ea080ec7396" name="Changes" comment="" />
+    <list default="true" id="e4c7ebd1-ce67-4c8d-9e6f-7ea080ec7396" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tij/out/production/tij/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tij/src/containers/AssociativeArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tij/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tij/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670165500692</updated>
       <workItem from="1670165502025" duration="20000" />
-      <workItem from="1670165683224" duration="1785000" />
+      <workItem from="1670165683224" duration="2435000" />
     </task>
     <servers />
   </component>

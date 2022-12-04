@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c7ebd1-ce67-4c8d-9e6f-7ea080ec7396" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tij/out/production/tij/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/containers/AssociativeArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tij/src/containers/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tij/src/containers/ApplesAndOrangesWithoutGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tij/src/containers/Orange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tij/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tij/.idea/workspace.xml" afterDir="false" />
     </list>

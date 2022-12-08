@@ -7,4 +7,11 @@ public class Apple {
     public long id() {
         return id;
     }
+
+    @Override
+    public String toString() {
+        return "Apple{" +
+                "id=" + id +
+                '}';
+    }
 }

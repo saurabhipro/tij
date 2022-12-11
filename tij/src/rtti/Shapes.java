@@ -1,6 +1,9 @@
 package rtti;
 
-//It frees you from the constraint of doing type-oriented things only at compile time, and can
+import java.util.Arrays;
+import java.util.List;
+
+//        It frees you from the constraint of doing type-oriented things only at compile time, and can
 //        enable some very powerful programs. The need for RTTI uncovers a plethora of interesting
 //        (and often perplexing) 0 0 design issues, and raises fundamental questions about how you
 //        should structure your programs. This chapter looks at the ways that Java allows you to
@@ -21,6 +24,23 @@ class Circle extends Shape {
 
     @Override
     public String toString() {
-        return "Circle";
+        return "Circle---";
+    }
+}
+
+class Square extends Shape {
+
+    @Override
+    public String toString() {
+        return "Square---";
+    }
+}
+
+public class Shapes {
+    public static void main(String[] args) {
+        List<Shape> shapeList = Arrays.asList(new Circle(), new Square());
+        for (Shape shape : shapeList) {
+            shape.draw();
+        }
     }
 }

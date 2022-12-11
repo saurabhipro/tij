@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c7ebd1-ce67-4c8d-9e6f-7ea080ec7396" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tij/out/production/tij/containers/ListFeatures.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/containers/AddingGrpups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/containers/AsListInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/containers/GenericsWithUpcasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/containers/Individual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/containers/ListFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/containers/LiteralPetCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/containers/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/containers/PetCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/containers/PrintingContainers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/containers/SimpleCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/string/Immutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tij/src/string/ReplaceStringTokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tij/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tij/src/rtti/Candy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tij/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tij/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tij/src/containers/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/tij/src/containers/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tij/src/rtti/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/tij/src/rtti/Shapes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

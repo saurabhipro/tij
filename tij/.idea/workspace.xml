@@ -4,24 +4,104 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92b5edd6-9a97-457f-abe4-0a23d55fb6a5" name="Changes" comment="Apples And Oranges Generics Example">
-      <change afterPath="$PROJECT_DIR$/out/production/tij/containers/ListFeatures.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/AddingGrpups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/AsListInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/GenericsWithUpcasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Individual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/ListFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/LiteralPetCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/PetCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/PrintingContainers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/SimpleCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rtti/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/Immutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/ReplaceStringTokenizer.java" afterDir="false" />
+    <list default="true" id="92b5edd6-9a97-457f-abe4-0a23d55fb6a5" name="Changes" comment="Committed Code for RTTI and Containers">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/Cake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/ChocolateChip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/ChocolateChip2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/Dinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/FullQualification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/IceCream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/ImportedMyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/Lunch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/OrganizedByAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/Pie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/PrintTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/QualifiedMyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/SingleImport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/cookie2/Cookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/dessert/Cookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/mypackage/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/AlphabeticSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayOfGenericType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayOfGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArraySearching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/AssemblingMultidimensionalArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/AutoboxingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/CompType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ComparingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ContainerComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/CopyingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/FillingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/GeneratorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/IceCream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/MultiDimWrapperArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/MultidimensionalObjectArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/MultidimensionalPrimitiveArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ParameterizedArrayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/PrimitiveConversionDemonstration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/RaggedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/RandomGeneratorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/StringSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/TestArrayGeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/TestGenerated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ThreeDWithNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/atunit/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/atunit/TestObjectCleanup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/atunit/TestObjectCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/atunit/TestProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/simple/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/simple/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/BasicGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/BinaryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/CollectionData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/ContainerMethodDifferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/ConvertTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/CountingGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/CountingIntegerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/CountingMapData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Countries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/DaemonThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/DaemonThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Enums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/FiveTuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/FourTuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Generated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Hex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/MapData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/New.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Null.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/OSExecute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/OSExecuteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/PPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/ProcessFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/RandomGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Sets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/SwingConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/TaskItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/TaskManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/TextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/ThreeTuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/Tuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/TwoTuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mindview/util/TypeCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rtti/Candy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rtti/SweetShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AssociativeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AssociativeArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/LiteralPetCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rtti/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rtti/Shapes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +141,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/visualvm_215/bin/visualvm.exe",
+    "last_opened_file_path": "C:/tij/tij/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,17 +157,20 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="containers" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\tij\tij\src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="containers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReplaceStringTokenizer">
-    <configuration name="AsListInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="containers.AsListInterface" />
+  <component name="RunManager" selected="Application.ContainerMethodDifferences">
+    <configuration name="AlphabeticSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.AlphabeticSearch" />
       <module name="tij" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="containers.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Immutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.Immutable" />
+    <configuration name="ArrayOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayOptions" />
       <module name="tij" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="containers.ListFeatures" />
+    <configuration name="ContainerMethodDifferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mindview.util.ContainerMethodDifferences" />
       <module name="tij" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="containers.*" />
+          <option name="PATTERN" value="mindview.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceStringTokenizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ReplaceStringTokenizer" />
+    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Reverse" />
       <module name="tij" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="containers.SimpleCollection" />
+    <configuration name="TestGenerated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.TestGenerated" />
       <module name="tij" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="containers.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReplaceStringTokenizer" />
-        <item itemvalue="Application.Immutable" />
-        <item itemvalue="Application.ListFeatures" />
-        <item itemvalue="Application.AsListInterface" />
-        <item itemvalue="Application.SimpleCollection" />
+        <item itemvalue="Application.ContainerMethodDifferences" />
+        <item itemvalue="Application.AlphabeticSearch" />
+        <item itemvalue="Application.TestGenerated" />
+        <item itemvalue="Application.ArrayOptions" />
+        <item itemvalue="Application.Reverse" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +248,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670167545015</updated>
-      <workItem from="1670167546330" duration="13720000" />
+      <workItem from="1670167546330" duration="15387000" />
+      <workItem from="1670601279920" duration="7166000" />
     </task>
     <task id="LOCAL-00001" summary="Sample Test Commit">
       <created>1670167576438</created>
@@ -187,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670171475609</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Committed Code for RTTI and Containers">
+      <created>1670513274580</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670513274580</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +300,8 @@
     <MESSAGE value="Sample Test Commit" />
     <MESSAGE value="AssociativeArray Demo" />
     <MESSAGE value="Apples And Oranges Generics Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apples And Oranges Generics Example" />
+    <MESSAGE value="Committed Code for RTTI and Containers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committed Code for RTTI and Containers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,6 +315,34 @@
           <url>file://$PROJECT_DIR$/src/containers/GenericsWithUpcasting.java</url>
           <line>39</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rtti/Shapes.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mindview/util/ContainerMethodDifferences.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rtti/Candy.java</url>
+          <line>26</line>
+          <properties class="rtti.SweetShop" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mindview/util/ContainerMethodDifferences.java</url>
+          <line>40</line>
+          <properties class="mindview.util.ContainerMethodDifferences" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

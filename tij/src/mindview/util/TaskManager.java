@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 
 public class TaskManager<R, C extends Callable<R>>
         extends ArrayList<TaskItem<R, C>> {
-    private ExecutorService exec =
+    private final ExecutorService exec =
             Executors.newSingleThreadExecutor();
 
     public void add(C task) {

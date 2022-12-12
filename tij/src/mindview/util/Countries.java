@@ -182,7 +182,7 @@ public class Countries {
     // Use AbstractMap by implementing entrySet()
     private static class FlyweightMap
             extends AbstractMap<String, String> {
-        private static Set<Map.Entry<String, String>> entries =
+        private static final Set<Map.Entry<String, String>> entries =
                 new EntrySet(DATA.length);
 
         public Set<Map.Entry<String, String>> entrySet() {
@@ -221,7 +221,7 @@ public class Countries {
         // Use AbstractSet by implementing size() & iterator()
         static class EntrySet
                 extends AbstractSet<Map.Entry<String, String>> {
-            private int size;
+            private final int size;
 
             EntrySet(int size) {
                 if (size < 0)
@@ -244,7 +244,7 @@ public class Countries {
             private class Iter
                     implements Iterator<Map.Entry<String, String>> {
                 // Only one Entry object per Iterator:
-                private Entry entry = new Entry(-1);
+                private final Entry entry = new Entry(-1);
 
                 public boolean hasNext() {
                     return entry.index < size - 1;

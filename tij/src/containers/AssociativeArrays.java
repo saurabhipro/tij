@@ -2,7 +2,7 @@ package containers;//: containers/AssociativeArray.java
 // Associates keys with values.
 
 class AssociativeArray<K, V> {
-    private Object[][] pairs;
+    private final Object[][] pairs;
     private int index;
 
     public AssociativeArray(int length) {

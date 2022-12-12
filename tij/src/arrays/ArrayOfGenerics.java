@@ -22,8 +22,7 @@ public class ArrayOfGenerics {
         // However, if your needs are straightforward it is
         // possible to create an array of generics, albeit
         // with an "unchecked" warning:
-        List<BerylliumSphere>[] spheres =
-                (List<BerylliumSphere>[]) new List[10];
+        List<BerylliumSphere>[] spheres = (List<BerylliumSphere>[]) new List[10];
         for (int i = 0; i < spheres.length; i++)
             spheres[i] = new ArrayList<BerylliumSphere>();
     }

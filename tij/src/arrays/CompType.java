@@ -13,7 +13,7 @@ import static mindview.util.Print.print;
 
 public class CompType implements Comparable<CompType> {
     private static int count = 1;
-    private static Random r = new Random(47);
+    private static final Random r = new Random(47);
     int i;
     int j;
 

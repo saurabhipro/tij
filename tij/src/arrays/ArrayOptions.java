@@ -18,13 +18,9 @@ public class ArrayOptions {
             if (c[i] == null) // Can test for null reference
                 c[i] = new BerylliumSphere();
         // Aggregate initialization:
-        BerylliumSphere[] d = {new BerylliumSphere(),
-                new BerylliumSphere(), new BerylliumSphere()
-        };
+        BerylliumSphere[] d = {new BerylliumSphere(), new BerylliumSphere(), new BerylliumSphere()};
         // Dynamic aggregate initialization:
-        a = new BerylliumSphere[]{
-                new BerylliumSphere(), new BerylliumSphere(),
-        };
+        a = new BerylliumSphere[]{new BerylliumSphere(), new BerylliumSphere(),};
         // (Trailing comma is optional in both cases)
         print("a.length = " + a.length);
         print("b.length = " + b.length);

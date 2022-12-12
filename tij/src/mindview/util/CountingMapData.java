@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class CountingMapData
         extends AbstractMap<Integer, String> {
-    private static String[] chars =
+    private static final String[] chars =
             "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
                     .split(" ");
     private int size;
@@ -51,7 +51,7 @@ public class CountingMapData
         public String getValue() {
             return
                     chars[index % chars.length] +
-                            Integer.toString(index / chars.length);
+                            index / chars.length;
         }
 
         public String setValue(String value) {

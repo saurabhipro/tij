@@ -5,7 +5,7 @@ package mindview.util;
 import java.util.Random;
 
 public class RandomGenerator {
-    private static Random r = new Random(47);
+    private static final Random r = new Random(47);
 
     public static class
     Boolean implements Generator<java.lang.Boolean> {

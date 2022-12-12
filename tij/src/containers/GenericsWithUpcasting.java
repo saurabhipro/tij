@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 interface foo {
-    public void foo();
+    void foo();
 }
 
 class GrannySmith extends Apple implements foo {

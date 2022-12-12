@@ -5,7 +5,7 @@ package mindview.util;
 import java.util.HashMap;
 
 public class TypeCounter extends HashMap<Class<?>, Integer> {
-    private Class<?> baseType;
+    private final Class<?> baseType;
 
     public TypeCounter(Class<?> baseType) {
         this.baseType = baseType;

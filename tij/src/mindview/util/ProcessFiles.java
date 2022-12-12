@@ -5,8 +5,8 @@ import java.io.File;
 import java.io.IOException;
 
 public class ProcessFiles {
-    private Strategy strategy;
-    private String ext;
+    private final Strategy strategy;
+    private final String ext;
     public ProcessFiles(Strategy strategy, String ext) {
         this.strategy = strategy;
         this.ext = ext;

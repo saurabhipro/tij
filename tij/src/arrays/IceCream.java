@@ -10,7 +10,7 @@ public class IceCream {
             "Mint Chip", "Mocha Almond Fudge", "Rum Raisin",
             "Praline Cream", "Mud Pie"
     };
-    private static Random rand = new Random(47);
+    private static final Random rand = new Random(47);
 
     public static String[] flavorSet(int n) {
         if (n > FLAVORS.length)

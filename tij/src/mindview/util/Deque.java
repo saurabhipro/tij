@@ -5,7 +5,7 @@ package mindview.util;
 import java.util.LinkedList;
 
 public class Deque<T> {
-    private LinkedList<T> deque = new LinkedList<T>();
+    private final LinkedList<T> deque = new LinkedList<T>();
 
     public void addFirst(T e) {
         deque.addFirst(e);
